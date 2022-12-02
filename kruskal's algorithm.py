@@ -8,7 +8,7 @@ class Graph:
 
     # Search function
 
-    def find(self, parent, i):
+    def find(self, parent, i): 
         if parent[i] == i:
             return i
         return self.find(parent, parent[i])
